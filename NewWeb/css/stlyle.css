@@ -445,9 +445,39 @@ header a img {
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 660px){
+    .home .home-img img {
+        width: 80%;
+        margin-left: 2.5rem;
+    }
+
+    .home .home-text {
+        margin-left: 8rem;
+
+    }
+
+    .about .about-image img {
+        width: 100%;
+        margin-left: -3rem;
+    }
+
+    .about .about-text {
+        margin-left: -7rem;
+        padding-right: 2rem;
+    }
+
+    .about .about-text h2{
+        font-size: 2.5rem;
+    }
+
+    .about .about-text p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 510px){
     .logo span img{
-        width: 10%;
+        width: 25px;
     }
 
     :root{
@@ -464,7 +494,7 @@ header a img {
     }
 
     .home .home-text{
-        margin-left: 2rem;
+        margin-left: 6rem;
     }
 
     .home-img {
@@ -477,12 +507,12 @@ header a img {
     }
 
     .about .about-image img {
-        width: 150%;
+        width: 130%;
         margin-left: -6rem;
     }
 
     .about .about-text h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin-left: 2rem;
     }
 
@@ -492,8 +522,22 @@ header a img {
     }
 
     .about .about-text p{
-        line-height: 1.5rem;
+        line-height: 1.3rem;
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 353px){
+    .about .about-text h2{
+        font-size: 2rem;
+    }
+
+    .about .about-text p{
+        font-size: 1rem;
+    }
+
+    .about .about-image {
+        margin-left: -1rem;
     }
 }
 
