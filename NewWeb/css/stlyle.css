@@ -71,10 +71,11 @@ header{
     align-items: center;
     cursor: pointer;
 }
+
 #menu-icon{
     font-size: 28px;
     margin-left: 10px;
-    z-index: 6;
+    z-index: -1;
 }
 
 section{
@@ -328,7 +329,7 @@ header a img {
     }
 
     .home .home-text {
-        margin-left: 14rem;
+        margin-left: 10rem;
     }
 
     .about .about-image img {
@@ -345,7 +346,9 @@ header a img {
     }
 
     .share{
-        display: none;
+        display: flex;
+        position: static;
+        flex-direction: column;
     }
     section{
         padding: 70px 4%;
@@ -375,9 +378,10 @@ header a img {
         align-items: center;
         text-align: center;
     }
-    .about .about-text h2{
-        /* font-size: 10px; */
-    }
+    
+    /* .about .about-text h2{
+        font-size: 10px;
+    } */
 
     .home-img{
         margin: auto;
@@ -423,8 +427,8 @@ header a img {
         margin-top: 5rem;
     }
 
-    .home-text{
-        margin-left: 13rem;
+    .home .home-text {
+        margin-left: 4rem;
     }
 
     .about .about-image {
@@ -452,7 +456,7 @@ header a img {
     }
 
     .home .home-text {
-        margin-left: 8rem;
+        margin-left: 1rem;
 
     }
 
@@ -477,7 +481,7 @@ header a img {
 
 @media (max-width: 510px){
     .logo span img{
-        width: 25px;
+        width: 24px;
     }
 
     :root{
@@ -494,12 +498,12 @@ header a img {
     }
 
     .home .home-text{
-        margin-left: 6rem;
+        margin-left: 1rem;
     }
 
     .home-img {
         width: 70%;
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
 
     .about .about-image {
@@ -508,12 +512,12 @@ header a img {
 
     .about .about-image img {
         width: 130%;
-        margin-left: -6rem;
+        margin-left: -5.4rem;
     }
 
     .about .about-text h2 {
         font-size: 2.5rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
 
     .about .about-text {
@@ -524,6 +528,7 @@ header a img {
     .about .about-text p{
         line-height: 1.3rem;
         font-size: 1.2rem;
+        margin-left: -2rem;
     }
 }
 
